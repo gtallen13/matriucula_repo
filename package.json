@@ -1,0 +1,20 @@
+{
+  "name": "electron_primer_app",
+  "version": "1.0.0",
+  "description": "Primera Aplicacion de Electron",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thomas Allen <gtallenpadi13@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.10"
+  },
+  "dependencies": {
+    "csv-parser": "^2.3.2",
+    "csv-writer": "^1.6.0",
+    "fast-csv": "^4.0.2",
+    "jquery": "^3.4.1"
+  }
+}

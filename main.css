@@ -1,0 +1,64 @@
+body, html
+{
+    padding: 0;
+    margin: 0;
+    background-color: #08183A;
+}
+h1
+{
+    color: #FC9C54;
+    text-align: center;   
+    font-family: 'Times New Roman', Times, serif;
+}
+h2
+{
+    color: #F2671F;
+    padding: 10px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+#form_matricula
+{
+    display: flex;
+    padding: 10px 0 30px 10px;
+}
+#form_matricula .casilla
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+#form_matricula .casilla input
+{
+    font-size: 14px;
+    color: #4B3D60;
+    margin-right: 5px;
+}
+#form_matricula .casilla label
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    margin-bottom: 10px;
+    
+    color: #F2671F;
+}
+#form_matricula input[type = "submit"]
+{
+    background-color: #152852;
+    border: none;
+    color: #FC9C54;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-right: 10px;
+}
+#form_matricula input[type = "button"]
+{
+    background-color: #152852;
+    border: none;
+    color: #FC9C54;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-right: 10px;
+}
+
+

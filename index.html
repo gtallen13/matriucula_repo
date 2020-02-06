@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title> Primera Aplicacion</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Universidad Abduzcan Rodolfo II: Matricula</h1>
+        <div id="contenedor">
+            <form id = "form_matricula" >
+                <div class="casilla">
+                    <label for= "ID">Numero de Identidad</label>
+                    <input type = "text" id = "ID" name= "ID" placeholder="ex: 1101194800009"></input>
+                </div>
+
+                <div class="casilla">
+                    <label for= "first_name">Primer Nombre</label>
+                    <input type = "text" id = "first_name" name= "first_name" placeholder="ex: Jack"></input>
+                </div>
+                
+                <div class="casilla">
+                    <label for= "surname">Primer Apellido</label>
+                    <input type = "text" id = "surname" name= "surname" placeholder="ex: Woodds"></input>
+                </div>
+
+                <div class="casilla">
+                    <label for = "age">Edad</label>
+                    <input type = "number" id = "age" name= "age"></input>
+                </div>
+                <div class = "casilla">
+                    <label for = "phone">Telefono</label>
+                    <input type="number" id="phone" name="phone"></input>
+                </div>
+                <input type = "submit" value = "Matricularse" id= "btn_enroll">
+                <input type ="button" value = "Ver Matriculados" id = "btn_read">
+            </form>
+        </div>
+        <h2>Vista de Nuestro Campus</h2>
+        <img src = "images/campus.jpg"  height="300" width="500">
+
+        <h2>Estudiantes Destacados</h2>
+        <img src = "images/student.jpg"  height="400" width="400">
+
+        <div id = "table">
+        </div>
+        <script type = "text/javascript" src ="form.js"></script>
+        
+    </body>
+</html>
