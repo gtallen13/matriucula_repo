@@ -42,6 +42,7 @@ btn_enroll.addEventListener('click', function(e) {
               return;
       }
       console.log ("Se escribieron los datos exitosamente");
+      alert ('Bienvendio Abdizcano :)')
       });
 });
 })
