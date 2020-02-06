@@ -25,7 +25,7 @@ const txtPhone = document.getElementById('phone');
 
 btn_enroll.addEventListener('click', function(e) {
     e.preventDefault();   
-    fs.open("./alumnos.csv", "a", function (err, fd){
+    fs.open("./enrollment.csv", "a", function (err, fd){
       if (err )
       {
           console.log ("Error al abrir el archivo");
